@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+}
+.navbar{
+    padding:  5px 25px 5px 25px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+}
+.left-side, .right-side{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.small{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 4px;
+}
+.company-name{
+    display: flex;
+    flex-direction: row;
+    color: rgb(21, 21, 194);
+    font-weight: bold;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:visited {
+    color: #263238;
+    background-color: transparent;
+    text-decoration: none;
+}
+.profile-pic{
+    padding: 5px;
+    box-sizing: border-box;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 1px solid rgb(21, 21, 194);
+}
+
+.body-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-body{
+    padding: 25px;
+    margin: 25px 0 50px 25px;
+    background-color: white;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+} 
+
+.title {
+    padding: 0 0 10px 0;
+    text-align: left;
+    font-size: large;
+}
+.about{
+    padding: 40px 0 20px 0;
+    border-bottom: 2px dashed gray;
+}
+.name_title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+    margin-left: 5px;
+    letter-spacing: 0.02em;
+    padding: 10px;
+    
+}
+.Left-para {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 6px 0 6px 0;
+    color: #263238;
+}
+
+.contact {
+    padding: 35px 0 20px 0;
+}
+
+.web {
+    padding: 35px 0 20px 0;
+}
+
+.symbol{
+    font-style: normal;
+    color: #263238;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding: 25px;
+    margin: 15px;
+}
+
+.right-body {
+    margin: 25px 25px 0 25px;
+    padding: 25px;
+}
+
+.container {
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 25px;
+    word-wrap: break-word;
+}
+
+.right-title{
+    padding-bottom: 12px;
+    border-bottom: 2px dashed gray;
+}
+
+.subtitle {
+    padding: 10px 0 10px 0;
+}
+
+p {
+    padding: 6px 0 6px 0;
+    color: #565655;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+ul{
+    color: #565655;
+    padding-left: 16px;
+}
+
+h4 {
+    padding: 10px 0 10px 0;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 750px) {
+    .navbar{
+        display: none;
+    }
+    .body-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-body{
+        padding: 25px;
+        margin: 25px 25px 50px 25px;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-pic{
+        height: 200px;
+        width: 200px;
+        align-items: center;
+    }
+    .right-body{
+        margin: 25px 25px 50px 25px;
+    }
+    
+}
+
+    
